@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SE171368.ProductManagement.API.props" />
-</Project>

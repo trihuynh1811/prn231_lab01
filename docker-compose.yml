@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  se171368.productmanagement.api:
+    image: ${DOCKER_REGISTRY-}se171368productmanagementapi
+    build:
+      context: .
+      dockerfile: SE171368.ProductManagement.API/Dockerfile
